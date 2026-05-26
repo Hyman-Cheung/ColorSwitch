@@ -20,44 +20,52 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
         
-        /* New custom styling for the interactive preview card */
+        /* Interactive preview card to replace the blocked iframe */
         .demo-card {
             display: block;
             text-decoration: none;
             color: #333;
             margin: 30px auto 10px auto;
-            padding: 40px 20px;
-            border: 2px dashed #a0aec0;
-            border-radius: 20px;
+            padding: 50px 20px;
+            border: 2px dashed #3182ce;
+            border-radius: 24px;
             background-color: #f8fafc;
-            max-width: 350px;
+            max-width: 320px;
             transition: all 0.3s ease;
             cursor: pointer;
         }
 
-        /* Hover animation to look like a premium, clickable element */
+        /* Hover animation so it behaves like a professional clickable element */
         .demo-card:hover {
             transform: translateY(-5px);
-            border-color: #3182ce;
+            border-color: #2b6cb0;
             background-color: #ebf8ff;
-            box-shadow: 0 10px 20px rgba(49, 130, 206, 0.1);
+            box-shadow: 0 10px 25px rgba(49, 130, 206, 0.15);
         }
 
         .phone-icon {
-            font-size: 50px;
+            font-size: 60px;
             margin-bottom: 15px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
         }
 
         .btn-launch {
             display: inline-block;
-            margin-top: 15px;
+            margin-top: 20px;
             background-color: #3182ce;
             color: white;
-            padding: 10px 24px;
+            padding: 12px 30px;
             border-radius: 8px;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 15px;
             transition: background 0.2s ease;
+            box-shadow: 0 4px 6px rgba(49, 130, 206, 0.2);
         }
 
         .demo-card:hover .btn-launch {
@@ -69,14 +77,16 @@
 
     <div class="portfolio-container">
         <h1>Welcome to My IT Portfolio</h1>
-        <p>Take a look at my Android Studio project running right inside your web browser! Click the preview card below to launch the interactive live smartphone simulation.</p>
+        <p>Take a look at my Android Studio project running right inside your web browser! Click the preview card below to launch the free, fully interactive live smartphone simulation.</p>
         
-        <!-- Free Tier Friendly Demo Link -->
-        <a href="https://appetize.io/app/b_t2a7frofhusbpkgya6aamm667m" target="_blank" class="demo-card">
+        <!-- Free-tier standalone link configuration -->
+        <a href="https://appetize.io/app/b_t2a7frofhusbpkgya6aamm667m?device=pixel7" target="_blank" class="demo-card">
             <div class="phone-icon">📱</div>
-            <h3>Launch Live Android App</h3>
-            <p style="font-size: 13px; color: #718096; margin: 5px 0;">Opens a fully interactive virtual phone simulator directly in a new tab.</p>
-            <div class="btn-launch">Try App Demo</div>
+            <h3>Launch Android App Demo</h3>
+            <p style="font-size: 13px; color: #718096; margin: 8px 0 0 0; line-height: 1.4;">
+                Click to open a secure virtual device simulator in a new tab. No downloads or setup required.
+            </p>
+            <div class="btn-launch">Open Live Simulation</div>
         </a>
     </div>
 
