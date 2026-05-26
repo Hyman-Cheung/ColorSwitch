@@ -19,16 +19,49 @@
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
-        .emulator-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 30px auto 0 auto;
-            border-radius: 36px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
-            width: 300px;
-            height: 610px;
-            overflow: hidden; 
+        
+        /* New custom styling for the interactive preview card */
+        .demo-card {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            margin: 30px auto 10px auto;
+            padding: 40px 20px;
+            border: 2px dashed #a0aec0;
+            border-radius: 20px;
+            background-color: #f8fafc;
+            max-width: 350px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        /* Hover animation to look like a premium, clickable element */
+        .demo-card:hover {
+            transform: translateY(-5px);
+            border-color: #3182ce;
+            background-color: #ebf8ff;
+            box-shadow: 0 10px 20px rgba(49, 130, 206, 0.1);
+        }
+
+        .phone-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .btn-launch {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #3182ce;
+            color: white;
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 14px;
+            transition: background 0.2s ease;
+        }
+
+        .demo-card:hover .btn-launch {
+            background-color: #2b6cb0;
         }
     </style>
 </head>
@@ -36,18 +69,15 @@
 
     <div class="portfolio-container">
         <h1>Welcome to My IT Portfolio</h1>
-        <p>Take a look at my Android Studio project running right inside your web browser! Use the phone emulator below to click around and test the application features.</p>
+        <p>Take a look at my Android Studio project running right inside your web browser! Click the preview card below to launch the interactive live smartphone simulation.</p>
         
-        <!-- Appetize Emulator Embed -->
-        <div class="emulator-container">
-            <iframe 
-                src="https://appetize.io/embed/b_t2a7frofhusbpkgya6aamm667m" 
-                width="300px" 
-                height="610px" 
-                frameborder="0" 
-                scrolling="no">
-            </iframe>
-        </div>
+        <!-- Free Tier Friendly Demo Link -->
+        <a href="https://appetize.io/app/b_t2a7frofhusbpkgya6aamm667m" target="_blank" class="demo-card">
+            <div class="phone-icon">📱</div>
+            <h3>Launch Live Android App</h3>
+            <p style="font-size: 13px; color: #718096; margin: 5px 0;">Opens a fully interactive virtual phone simulator directly in a new tab.</p>
+            <div class="btn-launch">Try App Demo</div>
+        </a>
     </div>
 
 </body>
