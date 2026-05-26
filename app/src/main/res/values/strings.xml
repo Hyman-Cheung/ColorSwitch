@@ -1,0 +1,47 @@
+<resources>
+    // Color Switch Game
+    <string name="app_name">Color Switch</string>
+    <string name="start_game">Start Game</string>
+    <string name="choose_level">Choose Level</string>
+    <string name="level_label">Level: %s</string>
+    <string name="score_label">Score: %d</string>
+    <string name="game_over">Game Over!</string>
+    <string name="your_score">Your Score: %d</string>
+    <string name="home">Home</string>
+    <string name="red_button">Red Button</string>
+    <string name="blue_button">Blue Button</string>
+    <string name="yellow_button">Yellow Button</string>
+    <string name="green_button">Green Button</string>
+
+    // Rock Paper Scissors Game
+    <string name="play_again">Play Again</string>
+    <string name="scissors">Scissors</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="win">Congratulation!</string>
+    <string name="lose">You lost!</string>
+    <string name="draw">Draw!</string>
+    // Guessing Game
+    <string name="confirm">Confirm</string>
+    <string name="restart">Restart</string>
+    <string name="chance">Chance:</string>
+    <string name="error">Please enter an integer! </string>
+    // Dice Game
+    <string name="dice_result">Result： </string>
+    <string name="start">Start</string>
+    // About Me
+    <string name="about_title">About Me</string>
+    <string name="about_name_title">Name: </string>
+    <string name="about_name">Cheung Hing Lam</string>
+    <string name="about_sid_title">SID: </string>
+    <string name="about_sid">20241431</string>
+    <string name="about_programme_title">Programme: </string>
+    <string name="about_programme">HDIT</string>
+    <string name="about_summary_title">Professional Summary: </string>
+    <string name="about_summary">A hardworking IT student with a strong work ethic and a commitment to perfection, seeking a job in the IT industry. Patient and attentive listener, passionate about acquiring diverse skills such as mobile app design, web page crafting, and programming languages.</string>
+    // Introduction
+    <string name="intro_title">Introduction of Color Switch</string>
+    <string name="intro">The Color Switch Game is a captivating, quick-paced mobile game that tests players\'s reaction times.Popular reaction-based games like "Brain Training" applications serve as its inspiration.It takes a novel approach by fusing color names and mismatched hues to produce a cognitive challenge.The game provides both entertainment and a practical way to train reaction speed and decision-making under pressure</string>
+    // Other
+    <string name="back">Go back to home page</string>
+</resources>
