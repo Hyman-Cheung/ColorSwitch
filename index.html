@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Color Switch</title>
 		<style>
 			/* Background */
@@ -49,18 +51,34 @@
 			}
 			
 			/* Icon */
-			.icon 
+			.icon-div 
 			{
 				font-size: 60px;
 				margin-bottom: 15px;
 				animation: float 3s ease-in-out infinite;
 			}
+			#icon
+			{
+				hight:130px;
+				width:130px;
+				border:13px solid #333333;
+			}
+			
 			/* Animation of the icon */
 			@keyframes float 
 			{
 				0% { transform: translateY(0px); }
 				50% { transform: translateY(-10px); }
 				100% { transform: translateY(0px); }
+			}
+			
+			/* Instruction */
+			#instruction
+			{
+				font-size: 13px; 
+				color: #718096;
+				margin: 8px 0 0 0; 
+				line-height: 1.4;
 			}
 			
 			/* Bttton */
@@ -97,12 +115,12 @@
 			<!-- Link -->
 			<a href="https://appetize.io/app/b_t2a7frofhusbpkgya6aamm667m?device=pixel7" target="_blank" class="demo-card">
 				<!-- Icon -->
-				<div class="icon">
-					<img src="./app/src/colorswitch_ic_launcher-playstore.png"/>
+				<div class="icon-div">
+					<img id= "icon" src="./app/src/colorswitch_ic_launcher-playstore.png"/>
 				</div>
 				<!-- Instruction -->
 				<h3>Launch Android App Demo</h3>
-				<p style="font-size: 13px; color: #718096; margin: 8px 0 0 0; line-height: 1.4;">
+				<p id="instruction">
 					Click to open a secure virtual device simulator in a new tab. No downloads or setup required.
 				</p>
 				<!--Button-->
