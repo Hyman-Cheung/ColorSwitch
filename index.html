@@ -82,7 +82,7 @@
 			}
 			
 			/* Bttton */
-			.btn-launch 
+			.btn
 			{
 				display: inline-block;
 				margin-top: 20px;
@@ -96,11 +96,19 @@
 				box-shadow: 0 4px 6px rgba(49, 130, 206, 0.2);
 			}
 			
-			/* Hover animation of the button */
-			.demo-card:hover .btn-launch 
+			/* Hover animation of the launch button */
+			.demo-card:hover #btn-launch
 			{
 				background-color: #ffc505;
 			}
+			
+			
+			/* Hover animation of the download button */
+			#btn-download:hover 
+			{
+				background-color: #ffc505;
+			}
+			
 		</style>
 	</head>
 	<!-- Body of the web page -->
@@ -124,7 +132,12 @@
 					Click to open a secure virtual device simulator in a new tab. No downloads or setup required.
 				</p>
 				<!--Button-->
-				<div class="btn-launch">Open Live Simulation</div>
+				<div class="btn" id="btn-launch">Open Live Simulation</div>
+			</a>
+			<a href="/images/myw3schoolsimage.jpg" download>
+				<div class="btn" id="btn-download">
+					Download
+				</div>
 			</a>
 		</div>
 	</body>
