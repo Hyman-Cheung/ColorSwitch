@@ -1,94 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My IT Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f6f9;
-            padding: 40px 20px;
-        }
-        .portfolio-container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        
-        /* Interactive preview card to replace the blocked iframe */
-        .demo-card {
-            display: block;
-            text-decoration: none;
-            color: #333;
-            margin: 30px auto 10px auto;
-            padding: 50px 20px;
-            border: 2px dashed #3182ce;
-            border-radius: 24px;
-            background-color: #f8fafc;
-            max-width: 320px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Color Switch</title>
+		<style>
+			/* Background */
+			body 
+			{
+				font-family: Arial, sans-serif;
+				text-align: center;
+				background-color: #555555;
+				padding: 40px 20px;
+			}
+			
+			/* Content Container */
+			.content-container 
+			{
+				max-width: 600px;
+				margin: 0 auto;
+				background: white;
+				padding: 30px;
+				border-radius: 12px;
+				box-shadow: 5px 5px 30px rgba(3,3,3,30);
+			}
+			
+			/* The link that let user to demo */
+			.demo-card 
+			{
+				display: block;
+				text-decoration: none;
+				color: #333;
+				margin: 30px auto 10px auto;
+				padding: 50px 20px;
+				border: 2px dashed #333333;
+				border-radius: 24px;
+				background-color: #eeeeee;
+				max-width: 320px;
+				transition: all 0.3s ease;
+				cursor: pointer;
+			}
 
-        /* Hover animation so it behaves like a professional clickable element */
-        .demo-card:hover {
-            transform: translateY(-5px);
-            border-color: #2b6cb0;
-            background-color: #ebf8ff;
-            box-shadow: 0 10px 25px rgba(49, 130, 206, 0.15);
-        }
-
-        .phone-icon {
-            font-size: 60px;
-            margin-bottom: 15px;
-            animation: float 3s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0px); }
-        }
-
-        .btn-launch {
-            display: inline-block;
-            margin-top: 20px;
-            background-color: #3182ce;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 8px;
-            font-weight: bold;
-            font-size: 15px;
-            transition: background 0.2s ease;
-            box-shadow: 0 4px 6px rgba(49, 130, 206, 0.2);
-        }
-
-        .demo-card:hover .btn-launch {
-            background-color: #2b6cb0;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="portfolio-container">
-        <h1>Welcome to My IT Portfolio</h1>
-        <p>Take a look at my Android Studio project running right inside your web browser! Click the preview card below to launch the free, fully interactive live smartphone simulation.</p>
-        
-        <!-- Free-tier standalone link configuration -->
-        <a href="https://appetize.io/app/b_t2a7frofhusbpkgya6aamm667m?device=pixel7" target="_blank" class="demo-card">
-            <div class="phone-icon">📱</div>
-            <h3>Launch Android App Demo</h3>
-            <p style="font-size: 13px; color: #718096; margin: 8px 0 0 0; line-height: 1.4;">
-                Click to open a secure virtual device simulator in a new tab. No downloads or setup required.
-            </p>
-            <div class="btn-launch">Open Live Simulation</div>
-        </a>
-    </div>
-
-</body>
+			/* Hover animation of the link */
+			.demo-card:hover 
+			{
+				transform: translateY(-5px);
+				border-color: #ffc505;
+				background-color: #fff4d6;
+				box-shadow: 0 10px 25px rgba(245, 179, 27, 0.15);
+			}
+			
+			/* Icon */
+			.icon 
+			{
+				font-size: 60px;
+				margin-bottom: 15px;
+				animation: float 3s ease-in-out infinite;
+			}
+			/* Animation of the icon */
+			@keyframes float 
+			{
+				0% { transform: translateY(0px); }
+				50% { transform: translateY(-10px); }
+				100% { transform: translateY(0px); }
+			}
+			
+			/* Bttton */
+			.btn-launch 
+			{
+				display: inline-block;
+				margin-top: 20px;
+				background-color: #666666;
+				color: white;
+				padding: 12px 30px;
+				border-radius: 8px;
+				font-weight: bold;
+				font-size: 15px;
+				transition: background 0.2s ease;
+				box-shadow: 0 4px 6px rgba(49, 130, 206, 0.2);
+			}
+			
+			/* Hover animation of the button */
+			.demo-card:hover .btn-launch 
+			{
+				background-color: #ffc505;
+			}
+		</style>
+	</head>
+	<!-- Body of the web page -->
+	<body>
+		<div class="content-container">
+			<!-- Title of the web page -->
+			<h1>Color Switching Game</h1>
+			<!-- Direction of the web page -->
+			<p>
+				The Color Switch Game is a fast-paced mobile game that tests your reaction time. Inspired by popular brain-training apps, it creates a unique cognitive challenge by pairing color names with mismatched hues. It's a fun, engaging way to train your decision-making and speed under pressure.
+			</p>
+			<!-- Link -->
+			<a href="https://appetize.io/app/b_t2a7frofhusbpkgya6aamm667m?device=pixel7" target="_blank" class="demo-card">
+				<!-- Icon -->
+				<div class="icon">
+					<img src="./app/src/colorswitch_ic_launcher-playstore.png"/>
+				</div>
+				<!-- Instruction -->
+				<h3>Launch Android App Demo</h3>
+				<p style="font-size: 13px; color: #718096; margin: 8px 0 0 0; line-height: 1.4;">
+					Click to open a secure virtual device simulator in a new tab. No downloads or setup required.
+				</p>
+				<!--Button-->
+				<div class="btn-launch">Open Live Simulation</div>
+			</a>
+		</div>
+	</body>
 </html>
