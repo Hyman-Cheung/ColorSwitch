@@ -6,3 +6,8 @@ The Color Switch Game is a fast-paced mobile game that tests your reaction time.
 <a href="https://Hyman-Cheung.github.io/ColorSwitchingGame">
   <img src="https://img.shields.io/badge/Try_Android_App-%23666666?style=for-the-badge" alt="Try Android App" height="40">
 </a>
+
+---
+
+## 👤 Credits
+Designed and Developed by **Hyman Cheung**.
