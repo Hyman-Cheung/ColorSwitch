@@ -20,7 +20,7 @@ The Color Switch Game is a fast-paced mobile game that tests your reaction time.
     | 2 | Medium | 2.5 seconds | 
     | 3 | Hard | 1.5 seconds | 
 - The screen will show the color name (Red, blue, green, yellow) with different text color (🔴🔵🟢🟡), player need to match the target color name by tapping the correct button within the time limit
-- Score points for each correct match
+- Score points and restart the timer for each correct match
 - A unique dual-game system where losing in the main game doesn't end your run - it sends you to a **challenge mini-game** for a second chance!
 -  **Lose condition:** Tap wrong color or run out of time
 
