@@ -11,7 +11,7 @@ The Color Switch Game is a fast-paced mobile game that tests your reaction time.
 
 ---
 
-## 🎨 Main Game: Color Switching
+## 🎨 Main Game: Color Switch
 - 📊 Level System (Player can choose the leve of the game)
 
     | Level | Difficulty | Time Limit | 
