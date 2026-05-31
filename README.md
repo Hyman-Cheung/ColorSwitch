@@ -29,7 +29,7 @@ The Color Switch Game is a fast-paced mobile game that tests your reaction time.
 When you lose in the Color Switching Game, you'll be sent to **one of three random mini-games**. Win to continue your run, lose and it's game over!
 
 
-## 🎲 Mini-Game 1: Dice Game
+### 1. 🎲 Dice Game
 
 Test your luck with a virtual dice roll!
 
@@ -41,7 +41,7 @@ Test your luck with a virtual dice roll!
 
 
 
-## 🔢 Mini-Game 2: Guessing Game
+### 2. 🔢 Guessing Game
 
 Test your intuition with a number guessing challenge!
 
@@ -55,7 +55,7 @@ Test your intuition with a number guessing challenge!
 
 
 
-## ✊📄✂️ Mini-Game 3: Rock Paper Scissors
+### 3. ✊📄✂️ Rock Paper Scissors
 
 Face off against the computer in this classic hand game!
 
@@ -69,7 +69,7 @@ Face off against the computer in this classic hand game!
 
 
 
-## 🎯 Mini-Game Result
+### 🎯 Mini-Game Result
 
 - ✅ **Win any mini-game** → Return to Color Switching Game (keep your score!)
 - ❌ **Lose any mini-game** → Game over (score resets)
