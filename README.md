@@ -1,4 +1,4 @@
-# 🎮 Color Switching Game
+# 🎮 Color Switching Game ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 
 The Color Switch Game is a fast-paced mobile game built with Android Studio for the Android system. Inspired by popular brain-training apps, this native experience tests your reaction time by pairing color names with mismatched hues. It's a fun, engaging way to train your cognitive decision-making and speed under pressure.
 
