@@ -79,7 +79,7 @@ Face off against the computer in this classic hand game!
 
 | Home Page | Main Game | 🎲 Dice Game | 🔢 Guessing Game | ✊📄✂️ Rock Paper Scissors | 
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="assets/HomePage.png" width="180" height="300"> | <img src="assets/MainGame.png" width="180" height="300"> | <img src="assets/DiceGame.png" width="180" height="300"> | <img src="assets/GuessingGame.png" width="175" height="300"> | <img src="assets/RockPaperScissors.png" width="165" height="295"> 
+| <img src="assets/HomePage.png" width="180" height="300"> | <img src="assets/MainGame.png" width="180" height="300"> | <img src="assets/DiceGame.png" width="180" height="300"> | <img src="assets/GuessingGame.png" width="175" height="295"> | <img src="assets/RockPaperScissors.png" width="163" height="293"> 
 
 ---
 
