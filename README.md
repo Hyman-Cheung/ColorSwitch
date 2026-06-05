@@ -1,6 +1,6 @@
 # 🎮 Color Switching Game
 
-The Color Switch Game is a fast-paced mobile game that tests your reaction time. Inspired by popular brain-training apps, it creates a unique cognitive challenge by pairing color names with mismatched hues. It's a fun, engaging way to train your decision-making and speed under pressure.
+The Color Switch Game is a fast-paced mobile game built with Android Studio for the Android system. Inspired by popular brain-training apps, this native experience tests your reaction time by pairing color names with mismatched hues. It's a fun, engaging way to train your cognitive decision-making and speed under pressure.
 
 ### 🚀 Try It Now 
 <a href="https://Hyman-Cheung.github.io/ColorSwitchingGame_AndroidStudio">
@@ -8,8 +8,9 @@ The Color Switch Game is a fast-paced mobile game that tests your reaction time.
 </a>
 
 ---
+## 📱Core Game Systems & Modes
 
-## 🎨 Main Game: Color Switch
+### 🎨 Main Game: Color Switch
 - 📊 Level System (Player can choose the leve of the game)
 
     | Level | Difficulty | Time Limit | 
@@ -22,9 +23,7 @@ The Color Switch Game is a fast-paced mobile game that tests your reaction time.
 - A unique dual-game system where losing in the main game doesn't end your run - it sends you to a **challenge mini-game** for a second chance!
 -  **Lose condition:** Tap wrong color or run out of time
 
----
-
-## 🔄Random Mini-Games
+### 🔄Random Mini-Games
 
 When you lose in the Color Switching Game, you'll be sent to **one of three random mini-games**. Win to continue your run, lose and it's game over!
 
