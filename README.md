@@ -75,6 +75,14 @@ Face off against the computer in this classic hand game!
 
 ---
 
+## 📸 Screenshots & Previews
+
+| Home Page | Main Game | 🎲 Dice Game | 🔢 Guessing Game | ✊📄✂️ Rock Paper Scissors | 
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="assets/HomePage.png" width="180" height="300"> | <img src="assets/MainGame.png" width="160" height="300"> | <img src="assets/DiceGame.png" width="180" height="300"> | <img src="assets/GuessingGame.png" width="180" height="300"> | <img src="assets/RockPaperScissors.png" width="180" height="300"> 
+
+---
+
 ## 👤 Credits
 
 Designed and Developed by **Hyman Cheung**
