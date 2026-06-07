@@ -11,7 +11,7 @@ The Color Switch Game is a fast-paced mobile game built with Android Studio for 
 
 ## 📱Core Game Systems & Modes
 
-### 🎨 Main Game: Color Switch
+### 🔴🔵🟢🟡 Main Game: Color Switch
 - 📊 Level System (Player can choose the leve of the game)
 
     | Level | Difficulty | Time Limit | 
