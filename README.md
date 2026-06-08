@@ -82,7 +82,7 @@ Face off against the computer in this classic hand game!
   
 | 🏠 Home Page | 🎨 Main Game | 🎲 Dice Game |
 |:---:|:---:|:---:|
-| <img src="assets/HomePage.png" width="220" height="450"> | <img src="assets/MainGame.png" width="220" height="450"> | <img src="assets/DiceGame.png" width="220" height="450"> | 
+| <img src="screenshots /ColorSwitch_HomePage.png" width="220" height="450"> | <img src="screenshots /ColorSwitch_MainGame.png" width="220" height="450"> | <img src="screenshots /ColorSwitch_DiceGame.png" width="220" height="450"> | 
 
 </div>
 
@@ -92,7 +92,7 @@ Face off against the computer in this classic hand game!
 
 | 🔢 Guessing Game | ✊📄✂️ <br> Rock Paper Scissors | 
 |:---:|:---:|
-|<img src="assets/GuessingGame.png" width="220" height="450"> | <img src="assets/RockPaperScissors.png" width="220" height="450"> 
+|<img src="screenshots /ColorSwitch_GuessingGame.png" width="220" height="450"> | <img src="screenshots /ColorSwitch_RockPaperScissors.png" width="220" height="450"> 
 
 </div>
 
