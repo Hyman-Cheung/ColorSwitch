@@ -92,7 +92,7 @@ Face off against the computer in this classic hand game!
 
 | 🔢 Guessing Game | ✊📄✂️ <br> Rock Paper Scissors | 
 |:---:|:---:|
-|<img src="screenshots/ColorSwitch_GuessingGame.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_RockPaperScissors.png" width="220" height="450"> 
+| <img src="screenshots/ColorSwitch_GuessingGame.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_RockPaperScissors.png" width="220" height="450"> |
 
 </div>
 
