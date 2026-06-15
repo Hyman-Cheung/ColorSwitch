@@ -1,4 +1,4 @@
-package mad.cheung_31_madb;
+package mad.color_switch;
 
 import org.junit.Test;
 

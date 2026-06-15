@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CHEUNG_31_madB"
+rootProject.name = "ColorSwitch"
 include(":app")

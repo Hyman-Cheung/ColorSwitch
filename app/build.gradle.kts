@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "mad.cheung_31_madb"
+    namespace = "mad.color_switch"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "mad.cheung_31_madb"
+        applicationId = "mad.color_switch"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

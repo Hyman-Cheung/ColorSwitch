@@ -1,4 +1,4 @@
-package mad.cheung_31_madb;
+package mad.color_switch;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("mad.cheung_31_madb", appContext.getPackageName());
+        assertEquals("mad.color_switch", appContext.getPackageName());
     }
 }

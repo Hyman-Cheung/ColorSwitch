@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/colorswitch_ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CHEUNG_31_madB"
+        android:theme="@style/Theme.ColorSwitch"
         tools:targetApi="31">
         <activity
             android:name=".AboutMe"
