@@ -80,9 +80,9 @@ Face off against the computer in this classic hand game!
 
 <div align="center">
   
-| 🏠 Home Page | 🎨 Main Game | 🎲 Dice Game |
-|:---:|:---:|:---:|
-| <img src="screenshots/ColorSwitch_HomePage.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_MainGame.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_DiceGame.png" width="220" height="450"> | 
+| 🏠 Home Page | 🎨 Main Game |                               💀 Game Over                                |
+|:---:|:---:|:-------------------------------------------------------------------------:|
+| <img src="screenshots/ColorSwitch_HomePage.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_MainGame.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_GameOver.png" width="220" height="450"> | 
 
 </div>
 
@@ -90,9 +90,9 @@ Face off against the computer in this classic hand game!
 
 <div align="center">
 
-| 🔢 Guessing Game | ✊📄✂️ <br> Rock Paper Scissors | 
-|:---:|:---:|
-| <img src="screenshots/ColorSwitch_GuessingGame.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_RockPaperScissors.png" width="220" height="450"> |
+| 🎲 Dice Game | 🔢 Guessing Game | ✊📄✂️ <br> Rock Paper Scissors | 
+|:---:|:---:|:---:|
+| <img src="screenshots/ColorSwitch_DiceGame.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_GuessingGame.png" width="220" height="450"> | <img src="screenshots/ColorSwitch_RockPaperScissors.png" width="220" height="450"> |
 
 </div>
 
